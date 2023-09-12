@@ -9,7 +9,7 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
- stages:
+stages:
 - stage: Dev
   jobs:
   - job: echo "its test job for dev"

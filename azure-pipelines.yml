@@ -11,8 +11,10 @@ pool:
 
 stages:
 - stage: Dev
-  jobs:
-  - job: echo "its test job for dev"
+  jobs: 
+  - job: Firstjob
+    steps:
+    - bash: echo "Build First job" 
 
 
 steps:
